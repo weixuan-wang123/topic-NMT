@@ -1,5 +1,5 @@
 # Topic-NMT 
-This repository hosts the original codes for our EMNLP 2021 Main Conference Paper: Neural Machine Translation with Heterogeneous Topic Knowledge Embeddings, <p><a href="https://aclanthology.org/2021.emnlp-main.256/">pdf</a></p>
+This repository hosts the original codes for our EMNLP 2021 Main Conference Paper: <a href="https://aclanthology.org/2021.emnlp-main.256/">Neural Machine Translation with Heterogeneous Topic Knowledge Embeddings</a>
 
 ## What is Topic-NMT 
 
