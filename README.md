@@ -1,11 +1,12 @@
 # Topic-NMT
 
-Code for EMNLP 2021 Main Conference Paper: Neural Machine Translation with Heterogeneous Topic Knowledge
-Embeddings, <p><a href="https://aclanthology.org/2021.emnlp-main.256/">pdf</a></p>
+This repository hosts an improved version of the original paper's (<p><a href="https://aclanthology.org/2021.emnlp-main.256/">Neural Machine Translation with Heterogeneous Topic Knowledge
+Embeddings</a></p>) codes. You may also referrs to the original code. <p><a href="https://github.com/Vicky-Wil/topic-NMT/tree/V0.0/">V0.0</a></p>
+
 
 ## What is Topic-NMT
 
-we propose heterogeneous ways of incorporating topic information into the Transformer architecture. Specifically, the
+We propose heterogeneous ways of incorporating topic information into the Transformer architecture. Specifically, the
 topic information can be incorporated in a heterogeneous manner, namely as pre-encoder topic embedding (`ENC_pre`),
 post-encoder topic embedding (`ENC_post`), and decoder topic embedding (`DEC`). Besides, the topic distribution learned
 for each word (as its topic embedding) is summarized at the sentence level and fed into the NMT model. The intuition is
@@ -17,7 +18,7 @@ guidance of the topic information of both source and target sentences.
 
 ### Requirements
 
-This repository includes all the code for Topic-NMT experience, refer to the following two open source code:
+This repository includes all the code for Topic-NMT, referring to the following two sources:
 <p><a href="https://github.com/pytorch/fairseq">fairseq</a></p>
 <p><a href="https://github.com/adjidieng/ETM">ETM</a></p>
 
@@ -72,7 +73,6 @@ Once your model is trained, you can generate translations, run
 ```
 fairseq-generate --path $out_dir/checkpoint_best.pt --source-lang en --target-lang de $data_dir/bin/ --sacrebleu --quiet --skip-invalid-size-inputs-valid-test --remove-bpe --user-dir topic_domain_nmt
 ```
-This is an improved version of the original paper's code. If you find that the calculation is too slow when running, you can use the original code. <p><a href="https://github.com/Vicky-Wil/topic-NMT/tree/V0.0/">V0.0</a></p>
 
 # Citation
 
