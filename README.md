@@ -72,7 +72,7 @@ Once your model is trained, you can generate translations, run
 ```
 fairseq-generate --path $out_dir/checkpoint_best.pt --source-lang en --target-lang de $data_dir/bin/ --sacrebleu --quiet --skip-invalid-size-inputs-valid-test --remove-bpe --user-dir topic_domain_nmt
 ```
-This is an improved version of the original paper's code. If you find that the calculation is too slow when running, you can use the original code.
+This is an improved version of the original paper's code. If you find that the calculation is too slow when running, you can use the original code. <p><a href="https://github.com/Vicky-Wil/topic-NMT/tree/V0.0/">V0.0</a></p>
 
 # Citation
 
