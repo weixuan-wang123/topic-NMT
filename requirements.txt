@@ -1,0 +1,6 @@
+fairseq==0.10.0
+subword-nmt==0.3.6
+matplotlib
+scipy
+sklearn
+gensim
