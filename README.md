@@ -1,7 +1,7 @@
 # Topic-NMT
 
-This repository hosts an improved version of the original paper's (<p><a href="https://aclanthology.org/2021.emnlp-main.256/">Neural Machine Translation with Heterogeneous Topic Knowledge
-Embeddings</a></p>) codes. You may also referrs to the original code. <p><a href="https://github.com/Vicky-Wil/topic-NMT/tree/V0.0/">V0.0</a></p>
+This repository hosts an improved version of the original paper's (<a href="https://aclanthology.org/2021.emnlp-main.256/">Neural Machine Translation with Heterogeneous Topic Knowledge
+Embeddings</a>) codes. You may also referrs to the original code base (<a href="https://github.com/Vicky-Wil/topic-NMT/tree/V0.0/">V0.0</a>). 
 
 
 ## What is Topic-NMT
