@@ -1,7 +1,7 @@
 # Topic-NMT
 
 This repository hosts an improved version of the original paper's (<a href="https://aclanthology.org/2021.emnlp-main.256/">Neural Machine Translation with Heterogeneous Topic Knowledge
-Embeddings</a>) codes. You may also referrs to the original code base (<a href="https://github.com/Vicky-Wil/topic-NMT/tree/V0.0/">V0.0</a>). 
+Embeddings</a>) codes. The original codes were placed within fairseq, therefore we revised them to improve readability. You may also refer to the original code base (<a href="https://github.com/Vicky-Wil/topic-NMT/tree/V0.0/">V0.0</a>). It is noted that two versions generate similar results.  
 
 
 ## What is Topic-NMT
