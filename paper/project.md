@@ -36,8 +36,7 @@ To investigate the effectiveness of our topic NMT model and study the main facto
 Examples of topic-enhanced NMT for EN → DE are shown in Table 3. For example, the base NMT model mistranslates “Systematic Theology” to “Systemtheorie” (systems theory in English), which is accurately translated to “Systematische Theologie” by the topic-enhanced NMT model.
 
 ##  <center> Bibtex </center>
----
-```
+
 @inproceedings{wang2021neural,
   title={Neural machine translation with heterogeneous topic knowledge embeddings},
   author={Wang, Weixuan and Peng, Wei and Zhang, Meng and Liu, Qun},
