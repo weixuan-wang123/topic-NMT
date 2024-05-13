@@ -13,7 +13,7 @@ Neural Machine Translation (NMT) has shown a strong ability to utilize local con
 </tr>
 </table>
 
-Figure 1 illustrates the proposed topic-enhanced NMT model with topic EN Cpre, EN Cpost, and DEC, built upon the Transformer architecture. The topic knowledge in the figure is obtained from the topic embedding tables for source and target languages produced by ETM.
+Figure 1 illustrates the proposed topic-enhanced NMT model with topic ENC-pre, ENC-post, and DEC, built upon the Transformer architecture. The topic knowledge in the figure is obtained from the topic embedding tables for source and target languages produced by ETM.
 
 The word embedding is obtained by looking up the word embedding table, which is randomly initialized and updated with training. The topic embedding table is pre-calculated as the intermediate product of ETM, and it is fixed during the NMT training process. Then we add up all the topic embedding in the sequence to produce the topic information distribution of the whole sentence, added to each word embedding of the input source words. Finally, we take the added word embedding representation as the input embedding and feed it into the encoder or decoder.
 
