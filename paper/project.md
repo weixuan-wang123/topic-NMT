@@ -1,7 +1,5 @@
----
-title: Neural Machine Translation with Heterogeneous Topic Knowledge Embeddings
-description: Welcome to this sample project
----
+# <center> Neural Machine Translation with Heterogeneous Topic Knowledge Embeddings
+
 ##  <center> Abstract
 ---
 Neural Machine Translation (NMT) has shown a strong ability to utilize local context to disambiguate the meaning of words. However, it remains a challenge for NMT to leverage broader context information like topics. In this paper, we propose heterogeneous ways of embedding topic information at the sentence level into an NMT model to improve translation performance. Specifically, the topic information can be incorporated as pre-encoder topic embedding, post-encoder topic embedding, and decoder topic embedding to increase the likelihood of selecting target words from the same topic of the source sentence. Experimental results show that NMT models with the proposed topic knowledge embedding outperform the baselines on the English → German and English → French translation tasks.
